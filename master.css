@@ -15,6 +15,20 @@ nav {
   justify-content: space-between;
 }
 
+button {
+  background-color: #EB008D;
+  border: 1px solid #EB008D;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+nav ul button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 nav ul {
   margin-top: 60px;
 }
@@ -25,8 +39,12 @@ nav ul li {
   display: inline;
 }
 
-nav ul li a, nav ul button a  {
+nav ul li a  {
   text-decoration: none;
+  color: gray;
+}
+
+nav ul li > a:hover {
   color: black;
 }
 
@@ -41,6 +59,10 @@ nav ul .drop-hidden {
   padding: 20px;
   border: 1px solid black;
   position: absolute;
+}
+
+nav ul .drop-hidden a:hover {
+  background: lightgrey;
 }
 
 nav ul .drop-hidden a {
